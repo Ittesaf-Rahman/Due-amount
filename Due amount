@@ -1,0 +1,10 @@
+productName = input("Enter your product name : ")
+price = int(input("Enter your price : "))
+payment = int(input("Enter your amount that you pay : "))
+due = price - payment
+if price - payment == 0:
+    pass
+else:
+    print("\n\n\n Your product name is : ", productName)
+    print("The total price of the product is : ", price,"৳")
+    print("you have due to pay : ",due,"৳")
